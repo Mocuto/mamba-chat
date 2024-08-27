@@ -1,0 +1,3284 @@
+[
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919268",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919271",
+    "action": {
+      "content": "calc 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919277",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919283",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919286",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919292",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919298",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919301",
+    "action": {
+      "content": "calc 1 + 0"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919307",
+    "action": {
+      "content": "1 + 0 = 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919313",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919316",
+    "action": {
+      "content": "calc 1 + 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919322",
+    "action": {
+      "content": "1 + 2 = 3"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919328",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919331",
+    "action": {
+      "content": "calc 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919337",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919343",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 96,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919346",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 96,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -3,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919352",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 96,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 0"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 0 = 1"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919358",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919361",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919367",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919373",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919376",
+    "action": {
+      "content": "calc 1 + 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919382",
+    "action": {
+      "content": "1 + 2 = 3"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919388",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919391",
+    "action": {
+      "content": "finish x = 3"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919397",
+    "action": {
+      "content": "The solution is incorrect."
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919403",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919406",
+    "action": {
+      "content": "calc 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -102,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022919412",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022919418",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -4,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022919421",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -4,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -103,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928135",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -4,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 2"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 2 = 3"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 3"
+        },
+        {
+          "sender": "judge",
+          "content": "The solution is incorrect."
+        },
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928141",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928144",
+    "action": {
+      "content": "x=2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928150",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928153",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928156",
+    "action": {
+      "content": "finish x=2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928162",
+    "action": {
+      "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928168",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -13,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928171",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -13,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -112,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928177",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -13,
+      "history": [
+        {
+          "sender": "player",
+          "content": "x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x=2"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928183",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928186",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928192",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928195",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 88,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928198",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 88,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -11,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928204",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 88,
+      "history": [
+        {
+          "sender": "player",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Cannot decipher"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928210",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928213",
+    "action": {
+      "content": "calc 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928219",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928225",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928228",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928234",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928240",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928243",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928249",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 99,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928255",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928258",
+    "action": {
+      "content": "finish x = 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928264",
+    "action": {
+      "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928270",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928273",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -101,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928279",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -2,
+      "history": [
+        {
+          "sender": "player",
+          "content": "finish x = 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "Invalid format. Must be in the form 'finish <letter> = <number>'"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": null,
+      "b": null,
+      "letter": null,
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928285",
+    "action": {
+      "num1": 1,
+      "num2": 1,
+      "letter": "x"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928288",
+    "action": {
+      "content": "calc 1 + 1"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 0,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928294",
+    "action": {
+      "content": "1 + 1 = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "DealerActor#8734022928300",
+    "action": {},
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "HumanPlayerActor#8734022928303",
+    "action": {
+      "content": "finish x = 2"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  },
+  {
+    "state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": -1,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        }
+      ],
+      "is_terminal": false
+    },
+    "actor": "ComputerJudgeActor#8734022928309",
+    "action": {
+      "content": "Correct!"
+    },
+    "next_state": {
+      "a": 1,
+      "b": 1,
+      "letter": "x",
+      "score": 98,
+      "history": [
+        {
+          "sender": "player",
+          "content": "calc 1 + 1"
+        },
+        {
+          "sender": "judge",
+          "content": "1 + 1 = 2"
+        },
+        {
+          "sender": "player",
+          "content": "finish x = 2"
+        },
+        {
+          "sender": "judge",
+          "content": "Correct!"
+        }
+      ],
+      "is_terminal": true
+    }
+  }
+]
